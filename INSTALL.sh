@@ -14,10 +14,10 @@
 
 # declare array
 SYMLINKS=()
-SYMLINKS+=("$HOME/dotfiles/terminal/.bashrc $HOME/.bashrc")
-SYMLINKS+=("$HOME/dotfiles/terminal/.inputrc $HOME/.inputrc")
-SYMLINKS+=("$HOME/dotfiles/terminal/.profile $HOME/.profile")
-SYMLINKS+=("$HOME/dotfiles/terminal/.xprofile $HOME/.xprofile")
+SYMLINKS+=("$HOME/.terminal/.bashrc $HOME/.bashrc")
+SYMLINKS+=("$HOME/.terminal/.inputrc $HOME/.inputrc")
+SYMLINKS+=("$HOME/.terminal/.profile $HOME/.profile")
+SYMLINKS+=("$HOME/.terminal/.xprofile $HOME/.xprofile")
 #printf '%s\n' "${SYMLINKS[@]}"
 #
 for i in "${SYMLINKS[@]}"; do
