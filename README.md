@@ -1,4 +1,4 @@
-# .bashrc, .inputrc
+# Terminal Configuration Presets
 
 ## What this file does:
 
@@ -9,8 +9,8 @@
 ### Installation
 
 ```
-$ git clone https://github.com/tecfu/terminal ~/terminal
-$ . ~/terminal/INSTALL.sh
+$ git clone https://github.com/tecfu/.terminal ~/.terminal
+$ . ~/.terminal/INSTALL.sh
 ```
 
 ### Checking your terminal for 256 colors:
