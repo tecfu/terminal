@@ -13,6 +13,15 @@ $ git clone https://github.com/tecfu/.terminal ~/.terminal
 $ . ~/.terminal/INSTALL.sh
 ```
 
+### OPTIONAL: Change keymap for virtual terminals
+
+custom_keymap.kmap maps ESC to CAPS_LOCK
+
+```
+$ sudo loadkeys custom_keymap.kmap
+$ echo "/usr/bin/loadkeys $HOME/custom_keymap.kmap" >> /etc/rc.local
+```
+
 ### OPTIONAL: Install 24 bit color support for virtual terminals
 
 See:
