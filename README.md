@@ -22,6 +22,8 @@ $ sudo loadkeys custom_keymap.kmap
 $ echo "/usr/bin/loadkeys $HOME/custom_keymap.kmap" >> /etc/rc.local
 ```
 
+See: https://superuser.com/questions/290115/how-to-change-console-keymap-in-linux
+
 ### OPTIONAL: Install 24 bit color support for virtual terminals
 
 See:
