@@ -11,12 +11,14 @@
 #   ```
 #
 ###
+### Get scripts parent directory
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
 # declare array
 SYMLINKS=()
-SYMLINKS+=("$HOME/.terminal/.bashrc $HOME/.bashrc")
-SYMLINKS+=("$HOME/.terminal/.inputrc $HOME/.inputrc")
-SYMLINKS+=("$HOME/.terminal/.profile $HOME/.profile")
+SYMLINKS+=("$DIR/.bashrc $HOME/.bashrc")
+SYMLINKS+=("$DIR/.inputrc $HOME/.inputrc")
+SYMLINKS+=("$DIR/.profile $HOME/.profile")
 
 #printf '%s\n' "${SYMLINKS[@]}"
 #
