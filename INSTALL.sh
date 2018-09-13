@@ -17,7 +17,7 @@ SYMLINKS=()
 SYMLINKS+=("$HOME/.terminal/.bashrc $HOME/.bashrc")
 SYMLINKS+=("$HOME/.terminal/.inputrc $HOME/.inputrc")
 SYMLINKS+=("$HOME/.terminal/.profile $HOME/.profile")
-SYMLINKS+=("$HOME/.terminal/.xprofile $HOME/.xprofile")
+
 #printf '%s\n' "${SYMLINKS[@]}"
 #
 for i in "${SYMLINKS[@]}"; do
