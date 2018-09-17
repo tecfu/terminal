@@ -109,3 +109,5 @@ fi
 source ~/.profile
 stty -ixon > /dev/null 2>/dev/null
 
+export EDITOR='vim'
+export VISUAL='vim'
