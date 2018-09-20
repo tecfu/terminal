@@ -2,7 +2,6 @@
 
 ## What this file does:
 
-- Sets up Golang path
 - Puts terminal in vi mode
 - Adds some vim key mappings
 
@@ -35,4 +34,3 @@ https://github.com/tecfu/kmscon
 
 - Run the file ./256colors2.pl and check for tiled blocks that
 represent 256 colors in the output.
-
