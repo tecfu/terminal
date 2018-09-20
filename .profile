@@ -1,5 +1,5 @@
 #
-Allows ctrl-s, ctrl-q in Vim
+#Allows ctrl-s, ctrl-q in Vim
 stty -ixon > /dev/null 2>/dev/null
 
 # Set vimode, Vim as editor
@@ -40,7 +40,7 @@ alias ipv6lookup='ip -6 addr'
 #touch ~/.gradle/gradle.properties && echo "org.gradle.daemon=true" >> ~/.gradle/gradle.properties
 #touch ~/.gradle/gradle.properties && echo "org.gradle.daemon=true" >> ~/.gradle/gradle.properties
 
-export NVM_DIR="~/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Sets screen brightness
