@@ -75,6 +75,11 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 # Add path for the PHP REPL tool psysh
 export PATH="/home/$USER/bin:$PATH"
 
+# Add path for local npm modules
+# (solves global permissions error on installation)
+# npm config set prefix ~/.local
+export PATH="/home/$USER/.local/bin/:$PATH"
+
 # Set DBUS_SESSION_BUS_ADDRESS when connecting to remotes via SSH
 #if [[ -n $SSH_CLIENT ]]; then
 #  NAUTILUS_PID=`pidof nautilus`  
